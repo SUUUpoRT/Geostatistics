@@ -14,7 +14,7 @@ link:     https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css
 
 script:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
 
-translation: українська ./translations/GS_lecture_1_uk.md
+translation: українська ./translations/ukrainian/GS_lecture_1_uk.md
 -->
 
 # Review in Probability and Statistics
