@@ -3,7 +3,7 @@ author:   Your Name
 email:    your@email.com
 version:  0.1.0
 language: uk
-narrator: US English Female
+narrator: Ukrainian Female
 
 icon: ./Images/GS_icon.png
 
@@ -14,10 +14,13 @@ link:     https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css
 
 script:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
 
-translation: English ./GS_lecture_1_uk.md
+
+
 -->
 
 # Огляд у ймовірності та статистиці
+
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://github.com/SUUUpoRT/Geostatistics/blob/main/GS_lecture_1_uk.md)
 
 ## Мети навчання
 

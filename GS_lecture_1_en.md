@@ -14,10 +14,13 @@ link:     https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css
 
 script:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
 
-translation: українська ./GS_lecture_1_uk.md
+translation: українська ./translations/GS_lecture_1_uk.md
 -->
 
 # Review in Probability and Statistics
+
+
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://github.com/SUUUpoRT/Geostatistics/blob/main/GS_lecture_1_en.md)
 
 ## Learning Objectives
 
