@@ -16,11 +16,48 @@ script:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
 
 translation: English https://liascript.github.io/course/?https://github.com/SUUUpoRT/Geostatistics/blob/main/GS_lecture_1_en.md
 
+script: https://nethiri.github.io/YTScriptGrabber/LiaScriptVersion/base.js
+script: https://nethiri.github.io/YTScriptGrabber/LiaScriptVersion/consys.js
+script: https://nethiri.github.io/YTScriptGrabber/LiaScriptVersion/grabber.js
+script: https://nethiri.github.io/YTScriptGrabber/LiaScriptVersion/grabber-lia-bridge.js
+script: https://nethiri.github.io/YTScriptGrabber/LiaScriptVersion/lul-lia-bridge.js
+script: https://nethiri.github.io/YTScriptGrabber/LiaScriptVersion/lul.js
+link: https://cdn.jsdelivr.net/gh/nethiri/YTScriptGrabber@main/LiaScriptVersion/lul.css
+link: https://cdn.jsdelivr.net/gh/nethiri/YTScriptGrabber@main/LiaScriptVersion/consys.css
+
+
+@gr: @grabber({})
+
+@grabber
+<script id="script_@uid" input="hidden">
+  window['grabberArg'] = @0;
+</script>
+@startgrabber(@uid)
+@end
+
+@startgrabber
+<script id="script_@uid" input="hidden">
+  window['grabberUid'] = 'id_@0';
+  setTimeout(function() {
+    startGrabber();
+  }, 100);
+</script>
+<div id='id_@0'></div>
+@end
+
 -->
 
 # Огляд у ймовірності та статистиці
 
 [![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://github.com/SUUUpoRT/Geostatistics/blob/main/GS_lecture_1_uk.md)
+
+## Відео
+
+```json @grabber
+{
+  "videoId": "dNpiQPWf0wk",
+}
+```
 
 ## Мети навчання
 
